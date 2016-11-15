@@ -38,7 +38,7 @@ public class Main {
 			
 			System.out.println("Connecting to database: " + serverName);
 			Connection conn = DriverManager.getConnection(url);
-			System.out.println(conn.getSchema());
+			//System.out.println(conn.getSchema());
 			System.out.println("Connection complete");
 			log.writeLine(stopwatch.getMili()+": Successfull connection");
 			DatabaseMetaData databaseMetaData = conn.getMetaData();
@@ -49,7 +49,7 @@ public class Main {
 			String[] types            = null;
 			tables = new ArrayList<DBTable>();
 			
-			log.writeLine(stopwatch.getMili()+": Loading database tables");
+			log.writeLine(stopwatch.getMili()+": Loading database tables:\n");
 			System.out.println("Loading Tables");
 			ResultSet result = databaseMetaData.getTables(
 			    catalog, schemaPattern, tableNamePattern, types );
@@ -98,8 +98,20 @@ public class Main {
 				    tables.get(tIndex).addPrimaryKey(columnName);
 				    System.out.println(tables.get(tIndex).getName()+" Primary key: "+columnName);
 				}
-				System.out.println("Primary keys for "+tables.get(tIndex).getName()+" loaded");
+				System.out.println("Primary keys for "+tables.get(tIndex).getName()+" loaded\n");
 				
+				System.out.println("Foreign keys for "+tables.get(tIndex).getName());
+				result = databaseMetaData.getImportedKeys(catalog, schema, tableName);
+			    while (result.next()) {
+			        String fkTableName = result.getString("FKTABLE_NAME");
+			        String fkColumnName = result.getString("FKCOLUMN_NAME");
+			        String pkTableName = result.getString("PKTABLE_NAME");
+			        String pkColumnName = result.getString("PKCOLUMN_NAME");
+			        System.out.println(fkTableName + "." + fkColumnName + " -> " + pkTableName + "." + pkColumnName);
+			        tables.get(tIndex).addForeignKey(fkTableName + "." + fkColumnName + " -> " + pkTableName + "." + pkColumnName);
+			    }
+			    System.out.println("Foreign keys for "+tables.get(tIndex).getName()+" loaded\n");
+			    
 				System.out.println();
 				for(int cIndex = 0; cIndex < tables.get(tIndex).getAllColumns().size(); cIndex++){
 					result = getColumnData(conn, tables.get(tIndex).getName(), tables.get(tIndex).getColumn(cIndex).getName());
@@ -135,6 +147,7 @@ public class Main {
 		    return result;
 		} catch (SQLException e ) {
 			System.out.println("Something went wrong");
+			log.writeLine(stopwatch.getMili()+": Error while loading data");
 		}
 		return null;
 	}
@@ -148,6 +161,19 @@ public class Main {
 				tables.get(tIndex).getColumn(cIndex).printData();
 				System.out.println();
 			}
+			if(tables.get(tIndex).getAllPrimaryKeys().size() > 0){
+				System.out.println("Primary Keys:");
+				for(int i = 0; i < tables.get(tIndex).getAllPrimaryKeys().size(); i++){
+					System.out.println(tables.get(tIndex).getAllPrimaryKeys().get(i));
+				}
+			}
+			if(tables.get(tIndex).getAllForeignKeys().size() > 0){
+				System.out.println("Foreign Keys:");
+				for(int i = 0; i < tables.get(tIndex).getAllForeignKeys().size(); i++){
+					System.out.println(tables.get(tIndex).getAllForeignKeys().get(i));
+				}
+			}
+			
 			System.out.println("---------------------------------------------------*");
 		}
 	}

@@ -5,11 +5,13 @@ import java.util.ArrayList;
 public class DBTable {
 	private ArrayList<DBColumn> columns;
 	private ArrayList<String> primaryKeys;
+	private ArrayList<String> foreignKeys;
 	private String name;
 	
 	public DBTable(String name){
 		columns = new ArrayList<DBColumn>();
 		primaryKeys = new ArrayList<String>();
+		foreignKeys = new ArrayList<String>();
 		this.name = name;
 	}
 	
@@ -31,6 +33,14 @@ public class DBTable {
 	
 	public ArrayList<String> getAllPrimaryKeys(){
 		return primaryKeys;
+	}
+	
+	public void addForeignKey(String column){
+		foreignKeys.add(column);
+	}
+	
+	public ArrayList<String> getAllForeignKeys(){
+		return foreignKeys;
 	}
 	
 	public void addColumn(String name, int type){
