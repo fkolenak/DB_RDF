@@ -31,4 +31,14 @@ public class DBColumn {
 	public int getType(){
 		return type;
 	}
+	
+	public void printData(){
+		System.out.print("{ ");
+		for(int i = 0; i < data.size(); i++){
+			if(i < data.size()-1)
+				System.out.print(data.get(i)+" , ");
+			else
+				System.out.print(data.get(i)+" }");
+		}
+	}
 }

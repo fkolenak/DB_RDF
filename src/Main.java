@@ -1,9 +1,9 @@
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Properties;
 
-import oracle.jdbc.pool.OracleDataSource;
 import tools.DBTable;
+import tools.Log;
+import tools.StopWatch;
 
 public class Main {
 
@@ -12,29 +12,35 @@ public class Main {
 	static String user     = "jschropf";
 	static String password = "A15N0078P";
 	static String serverName = "students.kiv.zcu.cz";
-	static String dbName = "db2";
 	static String portNumber = "1521";
 	static String dbSchema = "JSCHROPF";
+	static String serviceName = "students";
 	private static ArrayList<DBTable> tables;
 	static String tablePrefix = "FOTBAL_";
 	
+	static Log log = Log.getInstance();
+	static StopWatch stopwatch = StopWatch.getInstance();
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		stopwatch.start();
 		try {
+			log.writeLine(stopwatch.getMili()+": Loading driver");
 			Class.forName(JDBC_DRIVER);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-				e.printStackTrace();
+			log.writeLine(stopwatch.getMili()+": Loading driver failed");
+			e.printStackTrace();
 		}
 		
-	    url = "jdbc:oracle:thin:"+user+"/"+password+"@"+serverName+/*"/"+dbName+*/":"+portNumber+":students";
+	    url = "jdbc:oracle:thin:"+user+"/"+password+"@"+serverName+/*"/"+dbName+*/":"+portNumber+":"+serviceName;
+	    log.writeLine(stopwatch.getMili()+": Connecting: "+url);
 		try {
 			
-			System.out.println("Connecting to db");
+			System.out.println("Connecting to database: " + serverName);
 			Connection conn = DriverManager.getConnection(url);
 			System.out.println(conn.getSchema());
 			System.out.println("Connection complete");
-			
+			log.writeLine(stopwatch.getMili()+": Successfull connection");
 			DatabaseMetaData databaseMetaData = conn.getMetaData();
 			
 			String   catalog          = null;
@@ -43,6 +49,7 @@ public class Main {
 			String[] types            = null;
 			tables = new ArrayList<DBTable>();
 			
+			log.writeLine(stopwatch.getMili()+": Loading database tables");
 			System.out.println("Loading Tables");
 			ResultSet result = databaseMetaData.getTables(
 			    catalog, schemaPattern, tableNamePattern, types );
@@ -55,9 +62,11 @@ public class Main {
 			    }
 			}
 			System.out.println("\nTables loaded");
+			log.writeLine(stopwatch.getMili()+": Database tables loaded");
 			String columnNamePattern = null;
 			
 			//Retrieving columns for tables in database
+			log.writeLine(stopwatch.getMili()+": Loading columns and data");
 			System.out.println("\nLoading columns for tables\n");
 			for(int tIndex = 0; tIndex < tables.size(); tIndex++){
 				
@@ -100,10 +109,17 @@ public class Main {
 					}
 				}
 			}
-			
+			System.out.println("Columns loaded");
+			log.writeLine(stopwatch.getMili()+": Columns and data loaded");
 			conn.close();
+			System.out.println("Columns closed\n");
+			log.writeLine(stopwatch.getMili()+": Connection closed");
+			
+			System.out.println("Printing database");
+			printDatabase();
 		} catch (SQLException e) {
 			System.out.println("Connection problem");
+			log.writeLine(stopwatch.getMili()+": Connection failed");
 			e.printStackTrace();
 		}
 
@@ -121,6 +137,19 @@ public class Main {
 			System.out.println("Something went wrong");
 		}
 		return null;
+	}
+	
+	public static void printDatabase(){
+		for(int tIndex = 0; tIndex < tables.size(); tIndex++){
+			System.out.println(tables.get(tIndex).getName()+":");
+			System.out.println("*---------------------------------------------------");
+			for(int cIndex = 0; cIndex < tables.get(tIndex).getAllColumns().size(); cIndex++){
+				System.out.print(tables.get(tIndex).getColumn(cIndex).getName() + ": ");
+				tables.get(tIndex).getColumn(cIndex).printData();
+				System.out.println();
+			}
+			System.out.println("---------------------------------------------------*");
+		}
 	}
 
 }
