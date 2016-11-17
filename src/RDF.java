@@ -61,7 +61,6 @@ public class RDF {
 				//TODO: udìlat univerzální prefix, douèit se prefixy a významy
 				if(prefix.equals("xsd")){
 					writeLine("@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .");
-					newLine();
 				}
 			}
 			else
@@ -114,8 +113,8 @@ public class RDF {
 				first = "_:"+(char)noPrimary;
 				noPrimary++;
 			}
-			String second = "rdf:type";
-			String third = "<" + table.getName() + ">";
+			String second = "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>";
+			String third = "<" + table.getName() + "> .";
 			writeLine(first + " " + second + " " + third);
 			
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){

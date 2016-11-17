@@ -42,12 +42,14 @@ public class Main {
 			System.out.println("Connection complete");
 			log.writeLine(stopwatch.getMili()+": Successfull connection");
 			DatabaseMetaData databaseMetaData = conn.getMetaData();
+			RDF rdf = new RDF("testRdfcontinuous", "./RDF", "http://students.kiv.zcu.cz/JSCHROPF/", "xsd");
 			
 			String   catalog          = null;
 			String   schemaPattern    = dbSchema;
 			String   tableNamePattern = null;
 			String[] types            = null;
 			tables = new ArrayList<DBTable>();
+			ArrayList<String> tableNames = new ArrayList<String>();
 			
 			log.writeLine(stopwatch.getMili()+": Loading database tables:\n");
 			System.out.println("Loading Tables");
@@ -58,6 +60,7 @@ public class Main {
 			    String tableName = result.getString(3);
 			    if(tableName.startsWith(tablePrefix)){
 			    	tables.add(new DBTable(tableName));
+			    	tableNames.add(tableName);
 			    	System.out.println(tableName);
 			    }
 			}
@@ -68,11 +71,11 @@ public class Main {
 			//Retrieving columns for tables in database
 			log.writeLine(stopwatch.getMili()+": Loading columns and data");
 			System.out.println("\nLoading columns for tables\n");
-			for(int tIndex = 0; tIndex < tables.size(); tIndex++){
-				
+			for(int tIndex = 0; tIndex < tableNames.size(); tIndex++){
+				DBTable temp = new DBTable(tableNames.get(tIndex));
 				catalog           = null;
 				schemaPattern     = dbSchema;
-				tableNamePattern  = tables.get(tIndex).getName();
+				tableNamePattern  = temp.getName();	//tables.get(tIndex).getName();
 				columnNamePattern = null;
 
 				System.out.println("Loading columns for table "+tables.get(tIndex).getName());
@@ -83,19 +86,21 @@ public class Main {
 				    String columnName = result.getString(4);
 				    int    columnType = result.getInt(5);
 				    System.out.println(tables.get(tIndex).getName()+": "+columnName+", "+columnType);
-				    tables.get(tIndex).addColumn(columnName, columnType);
+				    //tables.get(tIndex).addColumn(columnName, columnType);
+				    temp.addColumn(columnName, columnType);
 				}
 				System.out.println("Columns for "+tables.get(tIndex).getName()+" loaded\n");
 				
 				catalog   = null;
 				String schema    = dbSchema;
-				String tableName = tables.get(tIndex).getName();
+				String tableName = temp.getName(); //tables.get(tIndex).getName();
 
 				System.out.println("Loading primary keys for table "+tables.get(tIndex).getName());
 				result = databaseMetaData.getPrimaryKeys(catalog, schema, tableName);
 				while(result.next()){
 				    String columnName = result.getString(4);
-				    tables.get(tIndex).addPrimaryKey(columnName);
+				    //tables.get(tIndex).addPrimaryKey(columnName);
+				    temp.addPrimaryKey(columnName);
 				    System.out.println(tables.get(tIndex).getName()+" Primary key: "+columnName);
 				}
 				System.out.println("Primary keys for "+tables.get(tIndex).getName()+" loaded\n");
@@ -109,34 +114,39 @@ public class Main {
 			        String pkColumnName = result.getString("PKCOLUMN_NAME");
 			        String fkName = result.getString("FK_NAME");
 			        System.out.println(fkName + ": " + fkTableName + "." + fkColumnName + " -> " + pkTableName + "." + pkColumnName);
-			        tables.get(tIndex).addForeignKey(fkName + ":" + fkTableName + ":" + fkColumnName + ":" + pkTableName + ":" + pkColumnName);
+			        //tables.get(tIndex).addForeignKey(fkName + ":" + fkTableName + ":" + fkColumnName + ":" + pkTableName + ":" + pkColumnName);
+			        temp.addForeignKey(fkName + ":" + fkTableName + ":" + fkColumnName + ":" + pkTableName + ":" + pkColumnName);
 			    }
 			    System.out.println("Foreign keys for "+tables.get(tIndex).getName()+" loaded\n");
 			    
 				System.out.println();
-				for(int cIndex = 0; cIndex < tables.get(tIndex).getAllColumns().size(); cIndex++){
-					result = getColumnData(conn, tables.get(tIndex).getName(), tables.get(tIndex).getColumn(cIndex).getName());
+				for(int cIndex = 0; cIndex < temp.getAllColumns().size(); cIndex++){ //tables.get(tIndex).getAllColumns().size(); cIndex++){
+					//result = getColumnData(conn, tables.get(tIndex).getName(), tables.get(tIndex).getColumn(cIndex).getName());
+					result = getColumnData(conn, temp.getName(), temp.getColumn(cIndex).getName());
 					if(result != null)
 					while (result.next()) {
-						tables.get(tIndex).getColumn(cIndex).addData(result.getString(1));
+						//tables.get(tIndex).getColumn(cIndex).addData(result.getString(1));
+						temp.getColumn(cIndex).addData(result.getString(1));
 					}
 				}
+				printTable(temp);
+				rdf.writeTable(temp);
 			}
+			rdf.closeWriting();
 			System.out.println("Columns loaded");
 			log.writeLine(stopwatch.getMili()+": Columns and data loaded");
 			conn.close();
-			System.out.println("Columns closed\n");
+			System.out.println("Connection closed\n");
 			log.writeLine(stopwatch.getMili()+": Connection closed");
 			
-			System.out.println("Printing database");
-			printDatabase();
+			//System.out.println("Printing database");
+			//printDatabase();
 			
-			System.out.println("Starting RDF conversion");
-			RDF rdf = new RDF("testRdf", "./RDF", "http://students.kiv.zcu.cz/JSCHROPF/", "xsd");
+			/*System.out.println("Starting RDF conversion");
 			for(int tIndex = 0; tIndex < tables.size(); tIndex++){
 				rdf.writeTable(tables.get(tIndex));
 			}
-			rdf.closeWriting();
+			rdf.closeWriting();*/
 			System.out.println("RDF conversion complete");
 			log.writeLine(stopwatch.getMili()+": RDF conversion complete");
 			
@@ -187,6 +197,30 @@ public class Main {
 			
 			System.out.println("---------------------------------------------------*");
 		}
+	}
+	
+	public static void printTable(DBTable table){
+		System.out.println(table.getName()+":");
+		System.out.println("*---------------------------------------------------");
+		for(int cIndex = 0; cIndex < table.getAllColumns().size(); cIndex++){
+			System.out.print(table.getColumn(cIndex).getName() + ": ");
+			table.getColumn(cIndex).printData();
+			System.out.println();
+		}
+		if(table.getAllPrimaryKeys().size() > 0){
+			System.out.println("Primary Keys:");
+			for(int i = 0; i < table.getAllPrimaryKeys().size(); i++){
+				System.out.println(table.getAllPrimaryKeys().get(i));
+			}
+		}
+		if(table.getAllForeignKeys().size() > 0){
+			System.out.println("Foreign Keys:");
+			for(int i = 0; i < table.getAllForeignKeys().size(); i++){
+				System.out.println(table.getAllForeignKeys().get(i));
+			}
+		}
+		
+		System.out.println("---------------------------------------------------*");
 	}
 
 }
