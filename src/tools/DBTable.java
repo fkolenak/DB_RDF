@@ -19,6 +19,14 @@ public class DBTable {
 		return columns.get(column);
 	}
 	
+	public DBColumn getColumn(String column){
+		for(DBColumn col:columns){
+			if(col.getName().equals(column))
+				return col;
+		}
+		return null;
+	}
+	
 	public ArrayList<DBColumn> getAllColumns(){
 		return columns;
 	}
@@ -49,5 +57,15 @@ public class DBTable {
 	
 	public String getName(){
 		return name;
+	}
+	
+	public ArrayList<String> getRow(int row){
+		ArrayList<String> temp = new ArrayList<String>();
+		for(int cIndex = 0; cIndex < columns.size(); cIndex++){
+			temp.add(columns.get(cIndex).getData(row));
+			//System.out.print(columns.get(cIndex).getData(row)+ " ");
+		}
+		//System.out.println();
+		return temp;
 	}
 }

@@ -129,6 +129,15 @@ public class Main {
 			
 			System.out.println("Printing database");
 			printDatabase();
+			
+			System.out.println("Starting RDF conversion");
+			RDF rdf = new RDF("testRdf", "./RDF", "http://students.kiv.zcu.cz/JSCHROPF/", "xsd");
+			for(int tIndex = 0; tIndex < tables.size(); tIndex++){
+				rdf.writeTable(tables.get(tIndex));
+			}
+			rdf.closeWriting();
+			System.out.println("RDF conversion complete");
+			
 		} catch (SQLException e) {
 			System.out.println("Connection problem");
 			log.writeLine(stopwatch.getMili()+": Connection failed");
