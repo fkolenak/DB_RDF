@@ -107,8 +107,9 @@ public class Main {
 			        String fkColumnName = result.getString("FKCOLUMN_NAME");
 			        String pkTableName = result.getString("PKTABLE_NAME");
 			        String pkColumnName = result.getString("PKCOLUMN_NAME");
-			        System.out.println(fkTableName + "." + fkColumnName + " -> " + pkTableName + "." + pkColumnName);
-			        tables.get(tIndex).addForeignKey(fkTableName + "." + fkColumnName + " -> " + pkTableName + "." + pkColumnName);
+			        String fkName = result.getString("FK_NAME");
+			        System.out.println(fkName + ": " + fkTableName + "." + fkColumnName + " -> " + pkTableName + "." + pkColumnName);
+			        tables.get(tIndex).addForeignKey(fkName + ":" + fkTableName + ":" + fkColumnName + ":" + pkTableName + ":" + pkColumnName);
 			    }
 			    System.out.println("Foreign keys for "+tables.get(tIndex).getName()+" loaded\n");
 			    
@@ -137,6 +138,7 @@ public class Main {
 			}
 			rdf.closeWriting();
 			System.out.println("RDF conversion complete");
+			log.writeLine(stopwatch.getMili()+": RDF conversion complete");
 			
 		} catch (SQLException e) {
 			System.out.println("Connection problem");

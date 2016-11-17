@@ -57,12 +57,11 @@ public class RDF {
 			if(document.exists()){
 				fstream = new FileWriter(document , true);
 				out = new BufferedWriter(fstream);
-				out.write("@base <" + base + "> .");
-				out.newLine();
+				writeLine("@base <" + base + "> .");
 				//TODO: udìlat univerzální prefix, douèit se prefixy a významy
 				if(prefix.equals("xsd")){
-					out.write("@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .");
-					out.newLine();
+					writeLine("@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .");
+					newLine();
 				}
 			}
 			else
@@ -76,55 +75,115 @@ public class RDF {
 	
 	public void writeTable(DBTable table){
 		ArrayList<String> primaryKeys = table.getAllPrimaryKeys();
+		String [][] foreignKeys = null;
+		int numberOfForeign = table.getAllForeignKeys().size();
+		if(numberOfForeign > 0){
+			foreignKeys = new String [numberOfForeign][5];
+			for(int i = 0; i < numberOfForeign; i++){
+				String[] parts = table.getAllForeignKeys().get(i).split(":");
+				for(int j = 0; j < 5; j++)
+					foreignKeys[i][j] = parts[j];
+			}
+		}
 		ArrayList<DBColumn> columns = table.getAllColumns();
 		String tableName = table.getName();
 		int numberRows = columns.get(0).getData().size();
-		try {
-			out.newLine();
-			int noPrimary = 97;
-			for(int rIndex = 0; rIndex < numberRows; rIndex++){
-				ArrayList<String> row = table.getRow(rIndex);
-				String first = "";
-				if(primaryKeys.size() == 1)
-					first = "<" + tableName + "/" + primaryKeys.get(0) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
-				else if(primaryKeys.size() > 1){
-					first = "<" + tableName + "/";
-					for(int i = 0; i < primaryKeys.size(); i++){
-						if(i == primaryKeys.size()-1){
-							first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
-						}
-						else{
-							first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ";";
-						}
+		
+		newLine();
+		
+		//For triples without primary key
+		int noPrimary = 97;
+		
+		for(int rIndex = 0; rIndex < numberRows; rIndex++){
+			ArrayList<String> row = table.getRow(rIndex);
+			String first = "";
+			if(primaryKeys.size() == 1)
+				first = "<" + tableName + "/" + primaryKeys.get(0) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
+			else if(primaryKeys.size() > 1){
+				first = "<" + tableName + "/";
+				for(int i = 0; i < primaryKeys.size(); i++){
+					if(i == primaryKeys.size()-1){
+						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
+					}
+					else{
+						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ";";
 					}
 				}
-				else{
-					first = "_:"+(char)noPrimary;
-					noPrimary++;
-				}
-				String second = "rdf:type";
-				String third = "<" + table.getName() + ">";
-				out.write(first + " " + second + " " + third);
-				out.newLine();
-				for(int dIndex = 0; dIndex < row.size(); dIndex++){
-					second = "<" + tableName + "#" + columns.get(dIndex).getName() + ">";
-					int type = columns.get(dIndex).getType();
-					switch(type){
-						case 4:	third = row.get(dIndex) + " ."; 
-								break;
-						case 12: third = "\"" + row.get(dIndex) + "\" .";
-								break;
-						default: third = row.get(dIndex) + " .";
-					}
-						
-					out.write(first + " " + second + " " + third);
-					out.newLine();
-				}
-				out.newLine();
 			}
+			else{
+				first = "_:"+(char)noPrimary;
+				noPrimary++;
+			}
+			String second = "rdf:type";
+			String third = "<" + table.getName() + ">";
+			writeLine(first + " " + second + " " + third);
+			
+			for(int dIndex = 0; dIndex < row.size(); dIndex++){
+				second = "<" + tableName + "#" + columns.get(dIndex).getName() + ">";
+				int type = columns.get(dIndex).getType();
+				switch(type){
+					case 4:	third = row.get(dIndex) + " ."; 
+							break;
+					case 12: third = "\"" + row.get(dIndex) + "\" .";
+							break;
+					default: third = row.get(dIndex) + " .";
+				}
+					
+				writeLine(first + " " + second + " " + third);
+				if(numberOfForeign > 0){
+					boolean writeForeign = false;
+					for(int fIndex = 0; fIndex < numberOfForeign; fIndex++){
+						if(columns.get(dIndex).getName().equals(foreignKeys[fIndex][2])){
+							writeForeign = true;
+							second = "<" + tableName + "#ref-" + foreignKeys[fIndex][0] + ">";
+							third = "<" + foreignKeys[fIndex][3] + "/" + foreignKeys[fIndex][4] + "=";
+							
+							type = columns.get(dIndex).getType();
+							switch(type){
+								case 4:	third += row.get(dIndex) + "> ."; 
+										break;
+								case 12: third += "\"" + row.get(dIndex) + "\"> .";
+										break;
+								default: third += row.get(dIndex) + "> .";
+							}
+						}
+					}
+					if(writeForeign)
+						writeLine(first + " " + second + " " + third);
+				}
+			}
+			newLine();
+		}
+	}
+	
+	public void openWritting(){
+		FileWriter fstream;
+		try {
+			fstream = new FileWriter(document , true);
+			out = new BufferedWriter(fstream);
 		} catch (IOException e) {
-			System.out.println("Couldn't write into file");
-			e.printStackTrace();
+			System.out.println("Error: couldn't write into file");
+		}
+	}
+	
+	public void writeLine(String line){
+		try {
+			openWritting();
+			out.write(line);
+			out.newLine();
+			closeWriting();
+		} catch (IOException e) {
+			System.out.println("Error while writting into file");
+		}
+	}
+	
+	public void newLine(){
+		try {
+			openWritting();
+			out.newLine();
+			closeWriting();
+		} catch (IOException e) {
+			System.out.println("Error while writting into file");
 		}
 	}
 	
@@ -133,7 +192,7 @@ public class RDF {
 	        try {
 				out.close();
 			} catch (IOException e) {
-				System.out.println("Error while closing log");
+				System.out.println("Error while closing file");
 			}
 	    }
 	}
