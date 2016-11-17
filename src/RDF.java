@@ -103,10 +103,10 @@ public class RDF {
 				first = "<" + tableName + "/";
 				for(int i = 0; i < primaryKeys.size(); i++){
 					if(i == primaryKeys.size()-1){
-						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
+						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ">";
 					}
 					else{
-						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ";";
+						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ";";
 					}
 				}
 			}
