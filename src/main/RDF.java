@@ -128,10 +128,10 @@ public class RDF {
 			
 
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){
-				if(!writeForeign)
+				/*if(!writeForeign)
 					second = "<" + base + tableName + "-" + columns.get(dIndex).getName() + ">";
-				else
-					second = "<" + base + tableName + "/" + columns.get(dIndex).getName() + ">";
+				else*/
+				second = "<" + base + tableName + "/" + columns.get(dIndex).getName() + ">";
 				int type = columns.get(dIndex).getType();
 				switch(type){
 					case 4:	third = row.get(dIndex) + " ."; 
