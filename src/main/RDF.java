@@ -102,15 +102,15 @@ public class RDF {
 			ArrayList<String> row = table.getRow(rIndex);
 			String first = "";
 			if(primaryKeys.size() == 1)
-				first = "<" + base + tableName + "/" + primaryKeys.get(0) + "#" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
+				first = "<" + base + tableName + "/" + primaryKeys.get(0) + "-" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
 			else if(primaryKeys.size() > 1){
 				first = "<" + base + tableName + "/";
 				for(int i = 0; i < primaryKeys.size(); i++){
 					if(i == primaryKeys.size()-1){
-						first += primaryKeys.get(i) + "#" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ">";
+						first += primaryKeys.get(i) + "-" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ">";
 					}
 					else{
-						first += primaryKeys.get(i) + "#" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ";";
+						first += primaryKeys.get(i) + "-" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + "-";
 					}
 				}
 			}
@@ -123,7 +123,7 @@ public class RDF {
 			writeLine(first + " " + second + " " + third);
 			
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){
-				second = "<" + base + tableName + "#" + columns.get(dIndex).getName() + ">";
+				second = "<" + base + tableName + "-" + columns.get(dIndex).getName() + ">";
 				int type = columns.get(dIndex).getType();
 				switch(type){
 					case 4:	third = row.get(dIndex) + " ."; 
@@ -140,7 +140,7 @@ public class RDF {
 						if(columns.get(dIndex).getName().equals(foreignKeys[fIndex][2])){
 							writeForeign = true;
 							second = "<" + base + tableName + "#ref-" + foreignKeys[fIndex][0] + ">";
-							third = "<" +  base + foreignKeys[fIndex][3] + "/" +  base +foreignKeys[fIndex][4] + "#";
+							third = "<" +  base + foreignKeys[fIndex][3] + "/" + foreignKeys[fIndex][4] + "-";
 							
 							type = columns.get(dIndex).getType();
 							switch(type){
