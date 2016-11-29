@@ -140,7 +140,7 @@ public class RDF {
 						if(columns.get(dIndex).getName().equals(foreignKeys[fIndex][2])){
 							writeForeign = true;
 							second = "<" + base + tableName + "#ref-" + foreignKeys[fIndex][0] + ">";
-							third = "<" + foreignKeys[fIndex][3] + "/" + foreignKeys[fIndex][4] + "=";
+							third = "<" +  base + foreignKeys[fIndex][3] + "/" +  base +foreignKeys[fIndex][4] + "#";
 							
 							type = columns.get(dIndex).getType();
 							switch(type){

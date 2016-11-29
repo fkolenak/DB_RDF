@@ -2,18 +2,18 @@
 _:a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA> .
 _:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ID_BRANKA> "7" .
 _:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ID_ZAPAS> "7" .
-_:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_FOTBAL_ZAPAS_FK2> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+_:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_FOTBAL_ZAPAS_FK2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 _:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ID_HRAC> "21" .
-_:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=21> .
+_:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#21> .
 _:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#MINUTA> "16" .
 _:a <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "0" .
 
 _:b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA> .
 _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ID_BRANKA> "4" .
 _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ID_ZAPAS> "5" .
-_:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_FOTBAL_ZAPAS_FK2> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+_:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_FOTBAL_ZAPAS_FK2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ID_HRAC> "5" .
-_:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=5> .
+_:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#ref-FOTBAL_BRANKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#5> .
 _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#MINUTA> "12" .
 _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 
@@ -26,7 +26,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#4> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "4" .
@@ -35,7 +35,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#4> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#4> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#4> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#4> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#4> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "5" .
@@ -44,7 +44,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "6" .
@@ -53,7 +53,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "7" .
@@ -62,7 +62,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "8" .
@@ -71,7 +71,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "9" .
@@ -80,7 +80,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "10" .
@@ -89,7 +89,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "11" .
@@ -98,7 +98,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "12" .
@@ -107,7 +107,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "13" .
@@ -116,7 +116,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "14" .
@@ -125,7 +125,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "15" .
@@ -134,7 +134,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "16" .
@@ -143,7 +143,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "17" .
@@ -152,7 +152,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "18" .
@@ -161,7 +161,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "19" .
@@ -170,7 +170,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "20" .
@@ -179,7 +179,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "21" .
@@ -188,7 +188,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "22" .
@@ -197,7 +197,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "23" .
@@ -206,7 +206,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "24" .
@@ -215,7 +215,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "25" .
@@ -224,7 +224,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "26" .
@@ -233,7 +233,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "27" .
@@ -242,7 +242,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "28" .
@@ -251,7 +251,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "29" .
@@ -260,7 +260,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "30" .
@@ -269,7 +269,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "31" .
@@ -278,7 +278,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "32" .
@@ -287,7 +287,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "33" .
@@ -296,7 +296,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "34" .
@@ -305,7 +305,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "35" .
@@ -314,7 +314,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "36" .
@@ -323,7 +323,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "37" .
@@ -332,7 +332,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "38" .
@@ -341,7 +341,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "39" .
@@ -350,7 +350,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "40" .
@@ -359,7 +359,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "41" .
@@ -368,7 +368,7 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_HRAC> "42" .
@@ -377,14 +377,14 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#POST> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#GOLU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/ID_HRAC#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC#ref-FOTBAL_HRAC_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ID_LIGA> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_LIGA_FK> <FOTBAL_LIGA/ID_LIGA=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_LIGA_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_LIGA/http://students.kiv.zcu.cz/JSCHROPF/ID_LIGA#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_TYM_FK> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_TYM_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#BODU> "3" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#VYHRY> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#PROHRY> "0" .
@@ -392,9 +392,9 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ID_LIGA> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_LIGA_FK> <FOTBAL_LIGA/ID_LIGA=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_LIGA_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_LIGA/http://students.kiv.zcu.cz/JSCHROPF/ID_LIGA#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_TYM_FK> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_TYM_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#BODU> "3" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#VYHRY> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#2> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#PROHRY> "1" .
@@ -402,9 +402,9 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ID_LIGA> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_LIGA_FK> <FOTBAL_LIGA/ID_LIGA=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_LIGA_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_LIGA/http://students.kiv.zcu.cz/JSCHROPF/ID_LIGA#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_TYM_FK> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#ref-FOTBAL_HRAJI_LIGU_TYM_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#BODU> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#VYHRY> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU/ID_LIGA#1;ID_TYM#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAJI_LIGU#PROHRY> "1" .
@@ -420,596 +420,596 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "5" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "28" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=28> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#28> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "6" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "29" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=29> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#29> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "7" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "19" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=19> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#19> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "8" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "20" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=20> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#8> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#20> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "9" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "21" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=21> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#9> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#21> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "10" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "22" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=22> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#10> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#22> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "11" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "23" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=23> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#11> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#23> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "12" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "24" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=24> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#12> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#24> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "13" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "25" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=25> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#13> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#25> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "14" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "26" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=26> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#14> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#26> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "15" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "32" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=32> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#15> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#32> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "16" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "33" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=33> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#16> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#33> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "17" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "34" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=34> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#17> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#34> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "18" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "35" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=35> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#18> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#35> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "19" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "36" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=36> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#19> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#36> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "20" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "37" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=37> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#20> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#37> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "21" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "27" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=27> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#21> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#27> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "22" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "38" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=38> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#22> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#38> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "23" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "39" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=39> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#23> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#39> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "24" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "40" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=40> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#24> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#40> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "25" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "41" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=41> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#25> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#41> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "26" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#7> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "42" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=42> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#26> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#42> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "27" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#27> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "28" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#28> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "29" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "4" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=4> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#29> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#4> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "30" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#30> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#6> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "31" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "7" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=7> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#31> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#7> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "32" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "8" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=8> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#32> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#8> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "33" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "9" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=9> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#33> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#9> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "34" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "10" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=10> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#34> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#10> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "35" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "11" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=11> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#35> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#11> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "36" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "12" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=12> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#36> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#12> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "37" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "13" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=13> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#37> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#13> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "38" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "18" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=18> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#38> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#18> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "39" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "20" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=20> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#39> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#20> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "40" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "21" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=21> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#40> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#21> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "41" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "22" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=22> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#41> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#22> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "42" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "23" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=23> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#42> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#23> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "43" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "24" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=24> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#43> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#24> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "44" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "25" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=25> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#44> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#25> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "45" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "26" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=26> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#45> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#26> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "46" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "27" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=27> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#46> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#27> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "47" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "28" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=28> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#47> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#28> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "48" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "29" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=29> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#48> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#29> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "49" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "32" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=32> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#49> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#32> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "50" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "33" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=33> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#50> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#33> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "51" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "34" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=34> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#51> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#34> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "52" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "35" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=35> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#52> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#35> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "53" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "36" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=36> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#53> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#36> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "54" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "37" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=37> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#54> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#37> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "55" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "38" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=38> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#55> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#38> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "56" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "39" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=39> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#56> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#39> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "57" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "40" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=40> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#57> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#40> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "58" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "41" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=41> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#58> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#41> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "59" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "42" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=42> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#59> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#42> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "60" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "19" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=19> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#60> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#19> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "61" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "20" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=20> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#61> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#20> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "62" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "21" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=21> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#62> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#21> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "63" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "22" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=22> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#63> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#22> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "64" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "23" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=23> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#64> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#23> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "65" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "24" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=24> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#65> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#24> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "66" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "25" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=25> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#66> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#25> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "67" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "26" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=26> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#67> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#26> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "68" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "27" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=27> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#68> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#27> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "69" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "28" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=28> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#69> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#28> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_SOUPISKA> "70" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_TYM_FK1> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_ZAPAS> "6" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <FOTBAL_ZAPAS/ID_ZAPAS=6> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_ZAPAS_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/http://students.kiv.zcu.cz/JSCHROPF/ID_ZAPAS#6> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ID_HRAC> "29" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <FOTBAL_HRAC/ID_HRAC=29> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA/ID_SOUPISKA#70> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_SOUPISKA#ref-FOTBAL_SOUPISKA_HRAC_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_HRAC/http://students.kiv.zcu.cz/JSCHROPF/ID_HRAC#29> .
 
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/ID_TYM#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM> .
@@ -1042,40 +1042,40 @@ _:b <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_BRANKA#TYP> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DATUM> "2015-04-20 00:00:00.0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#VITEZ> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ID_LIGA> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_LIGA_FK> <FOTBAL_LIGA/ID_LIGA=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_LIGA_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_LIGA/http://students.kiv.zcu.cz/JSCHROPF/ID_LIGA#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DOMACI_GOLY> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#HOSTE_GOLY> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#PROBIHA> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DOMACI_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_DOMACI_T_FK> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_DOMACI_T_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#HOSTE_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_HOSTE_T_FK> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#5> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_HOSTE_T_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ID_ZAPAS> "6" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DATUM> "2015-05-19 00:00:00.0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#VITEZ> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ID_LIGA> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_LIGA_FK> <FOTBAL_LIGA/ID_LIGA=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_LIGA_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_LIGA/http://students.kiv.zcu.cz/JSCHROPF/ID_LIGA#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DOMACI_GOLY> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#HOSTE_GOLY> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#PROBIHA> "1" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DOMACI_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_DOMACI_T_FK> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_DOMACI_T_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#HOSTE_TYM> "5" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_HOSTE_T_FK> <FOTBAL_TYM/ID_TYM=5> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#6> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_HOSTE_T_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#5> .
 
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ID_ZAPAS> "7" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DATUM> "2015-05-15 00:00:00.0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#VITEZ> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ID_LIGA> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_LIGA_FK> <FOTBAL_LIGA/ID_LIGA=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_LIGA_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_LIGA/http://students.kiv.zcu.cz/JSCHROPF/ID_LIGA#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DOMACI_GOLY> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#HOSTE_GOLY> "0" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#PROBIHA> "2" .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#DOMACI_TYM> "1" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_DOMACI_T_FK> <FOTBAL_TYM/ID_TYM=1> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_DOMACI_T_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#1> .
 <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#HOSTE_TYM> "2" .
-<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_HOSTE_T_FK> <FOTBAL_TYM/ID_TYM=2> .
+<http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS/ID_ZAPAS#7> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_ZAPAS#ref-FOTBAL_ZAPAS_HOSTE_T_FK> <http://students.kiv.zcu.cz/JSCHROPF/FOTBAL_TYM/http://students.kiv.zcu.cz/JSCHROPF/ID_TYM#2> .
 
