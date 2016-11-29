@@ -98,7 +98,11 @@ public class RDF {
 		//For triples without primary key
 		int noPrimary = 97;
 		
+		boolean writeForeign = false;
+		if(numberOfForeign > 0)
+			writeForeign = true;
 		for(int rIndex = 0; rIndex < numberRows; rIndex++){
+
 			ArrayList<String> row = table.getRow(rIndex);
 			String first = "";
 			if(primaryKeys.size() == 1)
@@ -122,8 +126,12 @@ public class RDF {
 			String third = "<" + base + table.getName() + "> .";
 			writeLine(first + " " + second + " " + third);
 			
+
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){
-				second = "<" + base + tableName + "-" + columns.get(dIndex).getName() + ">";
+				if(!writeForeign)
+					second = "<" + base + tableName + "-" + columns.get(dIndex).getName() + ">";
+				else
+					second = "<" + base + tableName + "/" + columns.get(dIndex).getName() + ">";
 				int type = columns.get(dIndex).getType();
 				switch(type){
 					case 4:	third = row.get(dIndex) + " ."; 
@@ -135,11 +143,11 @@ public class RDF {
 					
 				writeLine(first + " " + second + " " + third);
 				if(numberOfForeign > 0){
-					boolean writeForeign = false;
+					writeForeign = false;
 					for(int fIndex = 0; fIndex < numberOfForeign; fIndex++){
 						if(columns.get(dIndex).getName().equals(foreignKeys[fIndex][2])){
 							writeForeign = true;
-							second = "<" + base + tableName + "#ref-" + foreignKeys[fIndex][0] + ">";
+							second = "<" + base + tableName + "/ref-" + foreignKeys[fIndex][0] + ">";
 							third = "<" +  base + foreignKeys[fIndex][3] + "/" + foreignKeys[fIndex][4] + "-";
 							
 							type = columns.get(dIndex).getType();
