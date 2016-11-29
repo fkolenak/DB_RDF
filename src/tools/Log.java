@@ -7,6 +7,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+import main.Config;
+
 /**
  * Class for simple logging
  * 
@@ -14,16 +16,20 @@ import java.util.Calendar;
  *
  */
 public class Log {
-	File log;
-	BufferedWriter out = null;
+	private File log;
+	private BufferedWriter out = null;
 	private static Log instance;
 	
 	/** Constructor */
 	private Log(){
 		DateFormat dateFormat = new SimpleDateFormat("yyyyddMM_HH_mm_ss");
 		Calendar cal = Calendar.getInstance();
-		System.out.println(dateFormat.format(cal.getTime()) + ".log");
-		log = new File("./logs/" + dateFormat.format(cal.getTime()) + ".log");
+		String fileName = dateFormat.format(cal.getTime()) + ".log";
+		if(!Config.get("logName").equals(""))
+			fileName = Config.get("logName");
+		System.out.println(fileName);
+		new File(Config.get("logPath")).mkdirs();
+		log = new File(Config.get("logPath")+"/" + fileName);
 	}
 	
 	/** Get log instance	 */

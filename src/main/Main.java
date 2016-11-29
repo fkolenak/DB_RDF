@@ -1,3 +1,4 @@
+package main;
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -7,23 +8,34 @@ import tools.StopWatch;
 
 public class Main {
 
-	static final String JDBC_DRIVER = "oracle.jdbc.driver.OracleDriver";  	
-	static String url;
-	static String user     = "jschropf";
-	static String password = "A15N0078P";
-	static String serverName = "students.kiv.zcu.cz";
-	static String portNumber = "1521";
-	static String dbSchema = "JSCHROPF";
-	static String serviceName = "students";
-	private static ArrayList<DBTable> tables;
-	static String tablePrefix = "FOTBAL_";
+	private static final String JDBC_DRIVER = "oracle.jdbc.driver.OracleDriver";  	
 	
-	static Log log = Log.getInstance();
-	static StopWatch stopwatch = StopWatch.getInstance();
+	private static String url;
+	private static String user;
+	private static String password;
+	private static String serverName;
+	private static String portNumber;
+	private static String dbSchema;
+	private static String serviceName;
+	private static String tablePrefix;
+	
+	private static ArrayList<DBTable> tables;	
+	private static Log log = Log.getInstance();
+	private static StopWatch stopwatch = StopWatch.getInstance();
 	
 	public static void main(String[] args) {
 		
 		stopwatch.start();
+		
+		//Load parameters
+		user = Config.get("user");
+		password = Config.get("password");
+		serverName = Config.get("serverName");
+		portNumber = Config.get("portNumber");
+		dbSchema = Config.get("dbSchema");
+		serviceName = Config.get("serviceName");
+		tablePrefix = Config.get("tablePrefix");
+		
 		try {
 			log.writeLine(stopwatch.getMili()+": Loading driver");
 			Class.forName(JDBC_DRIVER);
@@ -32,7 +44,7 @@ public class Main {
 			e.printStackTrace();
 		}
 		
-	    url = "jdbc:oracle:thin:"+user+"/"+password+"@"+serverName+/*"/"+dbName+*/":"+portNumber+":"+serviceName;
+	    url = "jdbc:oracle:thin:"+user+"/"+password+"@"+serverName+":"+portNumber+":"+serviceName;
 	    log.writeLine(stopwatch.getMili()+": Connecting: "+url);
 		try {
 			
@@ -42,7 +54,7 @@ public class Main {
 			System.out.println("Connection complete");
 			log.writeLine(stopwatch.getMili()+": Successfull connection");
 			DatabaseMetaData databaseMetaData = conn.getMetaData();
-			RDF rdf = new RDF("testRdfcontinuous", "./RDF", "http://students.kiv.zcu.cz/JSCHROPF/", "xsd");
+			RDF rdf = new RDF(Config.get("rdfName"), Config.get("rdfPath"), Config.get("rdfBase"), "xsd");
 			
 			String   catalog          = null;
 			String   schemaPattern    = dbSchema;
@@ -58,7 +70,7 @@ public class Main {
 
 			while(result.next()) {
 			    String tableName = result.getString(3);
-			    if(tableName.startsWith(tablePrefix)){
+			    if(tableName.startsWith(tablePrefix) || Config.get("tablePrefix").equals("")){
 			    	tables.add(new DBTable(tableName));
 			    	tableNames.add(tableName);
 			    	System.out.println(tableName);
@@ -139,14 +151,6 @@ public class Main {
 			System.out.println("Connection closed\n");
 			log.writeLine(stopwatch.getMili()+": Connection closed");
 			
-			//System.out.println("Printing database");
-			//printDatabase();
-			
-			/*System.out.println("Starting RDF conversion");
-			for(int tIndex = 0; tIndex < tables.size(); tIndex++){
-				rdf.writeTable(tables.get(tIndex));
-			}
-			rdf.closeWriting();*/
 			System.out.println("RDF conversion complete");
 			log.writeLine(stopwatch.getMili()+": RDF conversion complete");
 			

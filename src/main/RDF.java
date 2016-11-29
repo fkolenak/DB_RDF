@@ -1,3 +1,4 @@
+package main;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -8,6 +9,8 @@ import java.util.ArrayList;
 
 import tools.DBColumn;
 import tools.DBTable;
+import tools.Log;
+import tools.StopWatch;
 
 public class RDF {	
 	//TODO https://www.w3.org/TR/rdb-direct-mapping/
@@ -36,9 +39,12 @@ public class RDF {
 	*/
 	private String file;
 	private String path;
+	
 	private File document;
-	BufferedWriter out;
-	FileWriter fstream;
+	private BufferedWriter out;
+	private FileWriter fstream;
+	private Log log = Log.getInstance();
+	private StopWatch stopwatch = StopWatch.getInstance();
 	
 	public RDF(String file, String base, String prefix){
 		this(file, "./", base, prefix);
@@ -68,6 +74,7 @@ public class RDF {
 			
 		} catch (IOException e) {
 			System.out.println("Error while creating directory or file");
+			log.writeLine(stopwatch.getMili()+": Error while creating directory or file");
 			e.printStackTrace();
 		}
 	}
@@ -162,6 +169,8 @@ public class RDF {
 			out = new BufferedWriter(fstream);
 		} catch (IOException e) {
 			System.out.println("Error: couldn't write into file");
+			log.writeLine(stopwatch.getMili()+": Error: couldn't write into file");
+			
 		}
 	}
 	
@@ -173,6 +182,7 @@ public class RDF {
 			closeWriting();
 		} catch (IOException e) {
 			System.out.println("Error while writting into file");
+			log.writeLine(stopwatch.getMili()+": Error: couldn't write into file");
 		}
 	}
 	
@@ -183,6 +193,7 @@ public class RDF {
 			closeWriting();
 		} catch (IOException e) {
 			System.out.println("Error while writting into file");
+			log.writeLine(stopwatch.getMili()+": Error: couldn't write into file");
 		}
 	}
 	
@@ -192,6 +203,7 @@ public class RDF {
 				out.close();
 			} catch (IOException e) {
 				System.out.println("Error while closing file");
+				log.writeLine(stopwatch.getMili()+": Error while closing file");
 			}
 	    }
 	}

@@ -1,0 +1,41 @@
+##########################################################################################################
+#											CONFIG FILE													 #
+##########################################################################################################
+#
+##########################################################################################################
+#										  LOGIN PARAMETERS												 #
+##########################################################################################################
+#	To login into database, you need to specify following parameters:
+#	jdbc:oracle:thin:USER/PASSWORD@SERVERNAME:PORTNUMBER:SERVICENAME
+##	User name
+user=jschropf
+##	Password
+password=A15N0078P
+##	Server Name
+serverName=students.kiv.zcu.cz
+##	Port
+portNumber=1521
+##	Database Schema
+dbSchema=JSCHROPF
+## 	Service Name
+serviceName=students
+##	Table Prefix (optional, leave blank if no prefix is required)
+tablePrefix=FOTBAL_
+############################################################################################################
+#										 RDF PARAMETERS													   #
+############################################################################################################
+#  	Parameters to build path:
+#	rdfPath/rdfName 
+## 	File Name
+rdfName=testRDFfromConfig
+#	File Path
+rdfPath=./RDF
+##	Base
+rdfBase=http://students.kiv.zcu.cz/JSCHROPF/
+############################################################################################################
+#										LOG PARAMETERS													   #
+############################################################################################################
+# Log Name (optional, if blank, creates log with name yyyyddMM_HH_mm_ss.log
+logName=
+# Log Path
+logPath=./logs
