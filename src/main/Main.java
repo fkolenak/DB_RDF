@@ -54,7 +54,7 @@ public class Main {
 			System.out.println("Connection complete");
 			log.writeLine(stopwatch.getMili()+": Successfull connection");
 			DatabaseMetaData databaseMetaData = conn.getMetaData();
-			RDF rdf = new RDF(Config.get("rdfName"), Config.get("rdfPath"), Config.get("rdfBase"), "xsd");
+			RDF rdf = new RDF(Config.get("rdfName"), Config.get("rdfPath"), Config.get("rdfBase"));
 			
 			String   catalog          = null;
 			String   schemaPattern    = dbSchema;

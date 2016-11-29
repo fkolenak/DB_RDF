@@ -1,0 +1,10 @@
+0: Loading driver
+91: Connecting: jdbc:oracle:thin:jschropf/A15N0078P@students.kiv.zcu.cz:1521:students
+1283: Successfull connection
+1288: Loading database tables:
+
+1523: Database tables loaded
+1524: Loading columns and data
+13419: Columns and data loaded
+13510: Connection closed
+13510: RDF conversion complete

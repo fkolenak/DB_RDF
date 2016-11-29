@@ -45,14 +45,16 @@ public class RDF {
 	private FileWriter fstream;
 	private Log log = Log.getInstance();
 	private StopWatch stopwatch = StopWatch.getInstance();
+	String base;
 	
-	public RDF(String file, String base, String prefix){
-		this(file, "./", base, prefix);
+	public RDF(String file, String base){
+		this(file, "./", base);
 	}
 	
-	public RDF(String file, String path, String base, String prefix){
+	public RDF(String file, String path, String base){
 		this.file = file;
 		this.path = path;
+		this.base = base;
 		try {
 			//Creating directory
 			Files.createDirectories(Paths.get(path));
@@ -63,11 +65,7 @@ public class RDF {
 			if(document.exists()){
 				fstream = new FileWriter(document , true);
 				out = new BufferedWriter(fstream);
-				writeLine("@base <" + base + "> .");
 				//TODO: udìlat univerzální prefix, douèit se prefixy a významy
-				if(prefix.equals("xsd")){
-					writeLine("@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .");
-				}
 			}
 			else
 				System.out.println("Couldn't find file");
@@ -104,15 +102,15 @@ public class RDF {
 			ArrayList<String> row = table.getRow(rIndex);
 			String first = "";
 			if(primaryKeys.size() == 1)
-				first = "<" + tableName + "/" + primaryKeys.get(0) + "=" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
+				first = "<" + base + tableName + "/" + primaryKeys.get(0) + "#" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
 			else if(primaryKeys.size() > 1){
-				first = "<" + tableName + "/";
+				first = "<" + base + tableName + "/";
 				for(int i = 0; i < primaryKeys.size(); i++){
 					if(i == primaryKeys.size()-1){
-						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ">";
+						first += primaryKeys.get(i) + "#" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ">";
 					}
 					else{
-						first += primaryKeys.get(i) + "=" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ";";
+						first += primaryKeys.get(i) + "#" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ";";
 					}
 				}
 			}
@@ -121,18 +119,18 @@ public class RDF {
 				noPrimary++;
 			}
 			String second = "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>";
-			String third = "<" + table.getName() + "> .";
+			String third = "<" + base + table.getName() + "> .";
 			writeLine(first + " " + second + " " + third);
 			
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){
-				second = "<" + tableName + "#" + columns.get(dIndex).getName() + ">";
+				second = "<" + base + tableName + "#" + columns.get(dIndex).getName() + ">";
 				int type = columns.get(dIndex).getType();
 				switch(type){
 					case 4:	third = row.get(dIndex) + " ."; 
 							break;
 					case 12: third = "\"" + row.get(dIndex) + "\" .";
 							break;
-					default: third = row.get(dIndex) + " .";
+					default: third = "\"" + row.get(dIndex) + "\" .";
 				}
 					
 				writeLine(first + " " + second + " " + third);
@@ -141,7 +139,7 @@ public class RDF {
 					for(int fIndex = 0; fIndex < numberOfForeign; fIndex++){
 						if(columns.get(dIndex).getName().equals(foreignKeys[fIndex][2])){
 							writeForeign = true;
-							second = "<" + tableName + "#ref-" + foreignKeys[fIndex][0] + ">";
+							second = "<" + base + tableName + "#ref-" + foreignKeys[fIndex][0] + ">";
 							third = "<" + foreignKeys[fIndex][3] + "/" + foreignKeys[fIndex][4] + "=";
 							
 							type = columns.get(dIndex).getType();
