@@ -128,7 +128,7 @@ public class RDF {
 			}
 			String second = "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>";
 			String third = "<" + base + table.getName() + "> .";
-			writeLine(first.replace(" ","_") + " " + second + " " + third);
+			writeLine(first.replace(" ","_").replace(":","_") + " " + second + " " + third);
 			
 
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){
@@ -140,6 +140,8 @@ public class RDF {
 				switch(type){
 					case 1:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#string> ."; 
 							break;
+					case 3:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#decimal> ."; 
+					break;
 					case 4:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#integer> ."; 
 							break;
 					case 6:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#float> ."; 
@@ -155,7 +157,7 @@ public class RDF {
 					default: third = "\"" + row.get(dIndex) + "\" .";
 				}
 					
-				writeLine(first.replace(" ","_") + " " + second.replace(" ","_") + " " + third);
+				writeLine(first.replace(" ","_").replace(":","_") + " " + second.replace(" ","_").replace(":","_") + " " + third);
 				if(numberOfForeign > 0){
 					writeForeign = false;
 					for(int fIndex = 0; fIndex < numberOfForeign; fIndex++){
@@ -175,7 +177,7 @@ public class RDF {
 						}
 					}
 					if(writeForeign)
-						writeLine(first.replace(" ","_") + " " + second.replace(" ","_") + " " + third);
+						writeLine(first.replace(" ","_").replace(":","_") + " " + second.replace(" ","_").replace(":","_") + " " + third);
 				}
 			}
 			newLine();
