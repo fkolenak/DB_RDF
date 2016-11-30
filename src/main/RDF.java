@@ -110,15 +110,15 @@ public class RDF {
 			ArrayList<String> row = table.getRow(rIndex);
 			String first = "";
 			if(primaryKeys.size() == 1)
-				first = "<" + base + tableName + "/" + primaryKeys.get(0) + "-" + table.getColumn(primaryKeys.get(0)).getData(rIndex) + ">";
+				first = "<" + base + tableName + "/" + primaryKeys.get(0) + "-" + table.getColumn(primaryKeys.get(0)).getData(rIndex).replace(":","_") + ">";
 			else if(primaryKeys.size() > 1){
 				first = "<" + base + tableName + "/";
 				for(int i = 0; i < primaryKeys.size(); i++){
 					if(i == primaryKeys.size()-1){
-						first += primaryKeys.get(i) + "-" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + ">";
+						first += primaryKeys.get(i) + "-" + table.getColumn(primaryKeys.get(i)).getData(rIndex).replace(":","_") + ">";
 					}
 					else{
-						first += primaryKeys.get(i) + "-" + table.getColumn(primaryKeys.get(i)).getData(rIndex) + "-";
+						first += primaryKeys.get(i) + "-" + table.getColumn(primaryKeys.get(i)).getData(rIndex).replace(":","_") + "-";
 					}
 				}
 			}
@@ -128,14 +128,14 @@ public class RDF {
 			}
 			String second = "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>";
 			String third = "<" + base + table.getName() + "> .";
-			writeLine(first.replace(" ","_").replace(":","_") + " " + second + " " + third);
+			writeLine(first.replace(" ","_") + " " + second + " " + third);
 			
 
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){
 				/*if(!writeForeign)
 					second = "<" + base + tableName + "-" + columns.get(dIndex).getName() + ">";
 				else*/
-				second = "<" + base + tableName + "/" + columns.get(dIndex).getName() + ">";
+				second = "<" + base + tableName + "/" + columns.get(dIndex).getName().replace(":","_") + ">";
 				int type = columns.get(dIndex).getType();
 				switch(type){
 					case 1:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#string> ."; 
@@ -157,14 +157,14 @@ public class RDF {
 					default: third = "\"" + row.get(dIndex) + "\" .";
 				}
 					
-				writeLine(first.replace(" ","_").replace(":","_") + " " + second.replace(" ","_").replace(":","_") + " " + third);
+				writeLine(first.replace(" ","_") + " " + second.replace(" ","_") + " " + third);
 				if(numberOfForeign > 0){
 					writeForeign = false;
 					for(int fIndex = 0; fIndex < numberOfForeign; fIndex++){
 						if(columns.get(dIndex).getName().equals(foreignKeys[fIndex][2])){
 							writeForeign = true;
-							second = "<" + base + tableName + "/ref-" + foreignKeys[fIndex][0] + ">";
-							third = "<" +  base + foreignKeys[fIndex][3] + "/" + foreignKeys[fIndex][4] + "-";
+							second = "<" + base + tableName + "/ref-" + foreignKeys[fIndex][0].replace(":","_") + ">";
+							third = "<" +  base + foreignKeys[fIndex][3] + "/" + foreignKeys[fIndex][4].replace(":","_") + "-";
 							
 							type = columns.get(dIndex).getType();
 							switch(type){
@@ -177,7 +177,7 @@ public class RDF {
 						}
 					}
 					if(writeForeign)
-						writeLine(first.replace(" ","_").replace(":","_") + " " + second.replace(" ","_").replace(":","_") + " " + third);
+						writeLine(first.replace(" ","_") + " " + second.replace(" ","_") + " " + third);
 				}
 			}
 			newLine();

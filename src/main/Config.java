@@ -11,7 +11,7 @@ import tools.StopWatch;
 public class Config {
 	private static HashMap<String, String> config;
 	private static StopWatch stopwatch = StopWatch.getInstance();
-	private static String CONFIG_FILE_PATH = "./config";
+	private static String CONFIG_FILE_PATH = "./config2";
 	
 	static{
 		try {
