@@ -1,7 +1,0 @@
-0: Loading driver
-75: Connecting: jdbc:oracle:thin:jschropf/A15N0078P@students.kiv.zcu.cz:1521:students
-1572: Successfull connection
-1575: Loading database tables:
-
-1846: Database tables loaded
-1846: Loading columns and data

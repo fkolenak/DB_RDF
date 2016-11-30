@@ -62,7 +62,9 @@ public class DBTable {
 	public ArrayList<String> getRow(int row){
 		ArrayList<String> temp = new ArrayList<String>();
 		for(int cIndex = 0; cIndex < columns.size(); cIndex++){
-			temp.add(columns.get(cIndex).getData(row));
+			String data = columns.get(cIndex).getData(row); 
+			if(data != null) temp.add(data);
+
 			//System.out.print(columns.get(cIndex).getData(row)+ " ");
 		}
 		//System.out.println();

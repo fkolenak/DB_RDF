@@ -63,7 +63,7 @@ public class RDF {
 			if(!document.exists())
 				Files.createFile(Paths.get(path + "/" + file + ".rdf"));
 			if(document.exists()){
-				fstream = new FileWriter(document , true);
+				fstream = new FileWriter(document , false);
 				out = new BufferedWriter(fstream);
 				//TODO: udìlat univerzální prefix, douèit se prefixy a významy
 			}
@@ -91,7 +91,11 @@ public class RDF {
 		}
 		ArrayList<DBColumn> columns = table.getAllColumns();
 		String tableName = table.getName();
-		int numberRows = columns.get(0).getData().size();
+		int numberRows;
+		if(columns.size() > 0)
+			numberRows = columns.get(0).getData().size();
+		else
+			numberRows = 0;
 		
 		newLine();
 		

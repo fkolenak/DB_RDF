@@ -17,7 +17,10 @@ public class DBColumn {
 	}
 	
 	public String getData(int row){
-		return data.get(row);
+		if(data.size()>row) 
+			return data.get(row); 
+		return null;
+
 	}
 	
 	public ArrayList<String> getData(){

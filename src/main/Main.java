@@ -8,7 +8,8 @@ import tools.StopWatch;
 
 public class Main {
 
-	private static final String JDBC_DRIVER = "oracle.jdbc.driver.OracleDriver";  	
+	private static final String JDBC_DRIVER_ORACLE = "oracle.jdbc.driver.OracleDriver"; 
+	private static final String JDBC_DRIVER_POSTGRESS = "org.postgresql.Driver";
 	
 	private static String url;
 	private static String user;
@@ -22,6 +23,7 @@ public class Main {
 	private static ArrayList<DBTable> tables;	
 	private static Log log = Log.getInstance();
 	private static StopWatch stopwatch = StopWatch.getInstance();
+	private static String databaseType = "oracle";
 	
 	public static void main(String[] args) {
 		
@@ -35,16 +37,24 @@ public class Main {
 		dbSchema = Config.get("dbSchema");
 		serviceName = Config.get("serviceName");
 		tablePrefix = Config.get("tablePrefix");
+		databaseType = Config.get("dbType");
+		if(databaseType.equals("post"))
+			dbSchema = dbSchema.toLowerCase();
 		
 		try {
 			log.writeLine(stopwatch.getMili()+": Loading driver");
-			Class.forName(JDBC_DRIVER);
+			if(databaseType.equals("oracle"))
+				Class.forName(JDBC_DRIVER_ORACLE);
+			else if(databaseType.equals("post"))
+				Class.forName(JDBC_DRIVER_POSTGRESS);
 		} catch (ClassNotFoundException e) {
 			log.writeLine(stopwatch.getMili()+": Loading driver failed");
 			e.printStackTrace();
 		}
-		
-	    url = "jdbc:oracle:thin:"+user+"/"+password+"@"+serverName+":"+portNumber+":"+serviceName;
+		if(databaseType.equals("oracle"))
+			url = "jdbc:oracle:thin:"+user+"/"+password+"@"+serverName+":"+portNumber+":"+serviceName;
+		else if(databaseType.equals("post"))
+			url = "jdbc:postgresql://"+serverName+":"+portNumber+"/"+serviceName+"?user="+user+"&password="+password+"&sslmode=require";
 	    log.writeLine(stopwatch.getMili()+": Connecting: "+url);
 		try {
 			
@@ -66,7 +76,7 @@ public class Main {
 			log.writeLine(stopwatch.getMili()+": Loading database tables:\n");
 			System.out.println("Loading Tables");
 			ResultSet result = databaseMetaData.getTables(
-			    catalog, schemaPattern, tableNamePattern, types );
+						catalog, schemaPattern,  tableNamePattern, types);
 
 			while(result.next()) {
 			    String tableName = result.getString(3);
@@ -91,16 +101,24 @@ public class Main {
 				columnNamePattern = null;
 
 				System.out.println("Loading columns for table "+tables.get(tIndex).getName());
-				result = databaseMetaData.getColumns(
-				    catalog, schemaPattern,  tableNamePattern, columnNamePattern);
+				if(databaseType.equals("oracle"))
+					result = databaseMetaData.getColumns(
+							catalog, schemaPattern,  tableNamePattern, columnNamePattern);
+				else if(databaseType.equals("post"))
+					result = databaseMetaData.getColumns(
+							catalog, schemaPattern,  tableNamePattern.toLowerCase(), columnNamePattern);
+				ResultSetMetaData rsmd = result.getMetaData();
 				
+				System.out.println("Loading " + rsmd.getColumnCount() + " columns");
+
 				while(result.next()){
-				    String columnName = result.getString(4);
-				    int    columnType = result.getInt(5);
+				    String columnName = result.getString("COLUMN_NAME");
+				    int    columnType = Integer.parseInt(result.getString(5));
 				    System.out.println(tables.get(tIndex).getName()+": "+columnName+", "+columnType);
 				    //tables.get(tIndex).addColumn(columnName, columnType);
 				    temp.addColumn(columnName, columnType);
 				}
+
 				System.out.println("Columns for "+tables.get(tIndex).getName()+" loaded\n");
 				
 				catalog   = null;
@@ -171,8 +189,8 @@ public class Main {
 		    ResultSet result = stmt.executeQuery(query);
 		    return result;
 		} catch (SQLException e ) {
-			System.out.println("Something went wrong");
-			log.writeLine(stopwatch.getMili()+": Error while loading data");
+			System.out.println("Error while fetching data for " + table + "." + column);
+			log.writeLine(stopwatch.getMili()+": Error while loading data for " + table + "." + column);
 		}
 		return null;
 	}
