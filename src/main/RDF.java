@@ -13,7 +13,7 @@ import tools.Log;
 import tools.StopWatch;
 
 public class RDF {	
-	//TODO https://www.w3.org/TR/rdb-direct-mapping/
+	//https://www.w3.org/TR/rdb-direct-mapping/
 	/*
 	-7 	BIT
 	-6 	TINYINT
@@ -37,20 +37,42 @@ public class RDF {
 	93 	TIMESTAMP
 	1111  	OTHER
 	*/
+	
+	/** RDF file name */
 	private String file;
+	/** RDF file path */
 	private String path;
-	
+	/** RDF File */
 	private File document;
+	/** Out data writter */
 	private BufferedWriter out;
+	/** File stream */
 	private FileWriter fstream;
+	/** Log */
 	private Log log = Log.getInstance();
+	/** Stopwatch */
 	private StopWatch stopwatch = StopWatch.getInstance();
-	String base;
+	/** RDF base */
+	private String base;
 	
+	
+	/**
+	 * Constructor
+	 * 
+	 * @param file file name
+	 * @param base base name
+	 */
 	public RDF(String file, String base){
 		this(file, "./", base);
 	}
 	
+	/**
+	 * Constructor
+	 * 
+	 * @param file file name
+	 * @param path file path
+	 * @param base base name
+	 */
 	public RDF(String file, String path, String base){
 		this.file = file;
 		this.path = path;
@@ -77,6 +99,11 @@ public class RDF {
 		}
 	}
 	
+	/**
+	 * Method, which writes single table data into RDF folder
+	 * 
+	 * @param table	table structure containing columns and data
+	 */
 	public void writeTable(DBTable table){
 		ArrayList<String> primaryKeys = table.getAllPrimaryKeys();
 		String [][] foreignKeys = null;
@@ -130,29 +157,67 @@ public class RDF {
 			String third = "<" + base + table.getName() + "> .";
 			writeLine(first.replace(" ","_") + " " + second + " " + third);
 			
-
+			//building second and third based on type returned by result set in metadata
 			for(int dIndex = 0; dIndex < row.size(); dIndex++){
-				/*if(!writeForeign)
-					second = "<" + base + tableName + "-" + columns.get(dIndex).getName() + ">";
-				else*/
 				second = "<" + base + tableName + "/" + columns.get(dIndex).getName().replace(":","_") + ">";
 				int type = columns.get(dIndex).getType();
 				switch(type){
+					//BIT
+					case -7: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#byte> ."; 
+					break;
+					//TINYINT
+					case -6: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#int> ."; 
+					break;
+					//BIGINT
+					case -5: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#integer> ."; 
+					break;
+					//LONGVARBINARY
+					case -4: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#byte> ."; 
+					break;
+					//VARBINARY
+					case -3: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#byte> ."; 
+					break;
+					//BINARY
+					case -2: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#hexBinary> ."; 
+					break;
+					//LONGVARCHAR
+					case -1: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#string> ."; 
+					break;
+					//CHAR
 					case 1:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#string> ."; 
 							break;
+					//NUMERIC
+					case 2:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#decimal> ."; 
+					break;
+					//DECIMAL
 					case 3:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#decimal> ."; 
 					break;
+					//INTEGER
 					case 4:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#integer> ."; 
 							break;
+					//SMALLINT
+					case 5:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#integer> ."; 
+					break;
+					//FLOAT
 					case 6:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#float> ."; 
 					break;
+					//REAL
+					case 7:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#double> ."; 
+					break;
+					//DOUBLE
+					case 8:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#double> ."; 
+					break;
+					//VARCHAR
 					case 12: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#string> .";
 							break;
-					case 91:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#date> ."; 
+					//DATE
+					case 91: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#date> ."; 
 					break;
-					case 92:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#time> ."; 
+					//TIME
+					case 92: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#time> ."; 
 					break;
-					case 93:	third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#dateTime> ."; 
+					//TIMESTAMP
+					case 93: third = "\"" + row.get(dIndex) + "\"^^<http://www.w3.org/2001/XMLSchema#dateTime> ."; 
 					break;
 					default: third = "\"" + row.get(dIndex) + "\" .";
 				}
@@ -184,6 +249,10 @@ public class RDF {
 		}
 	}
 	
+	/**
+	 * Method to open writting stream for RDF file
+	 * 
+	 */
 	public void openWritting(){
 		FileWriter fstream;
 		try {
@@ -196,6 +265,11 @@ public class RDF {
 		}
 	}
 	
+	/**
+	 * Method to write single line into file
+	 * 
+	 * @param line line to be written
+	 */
 	public void writeLine(String line){
 		try {
 			openWritting();
@@ -208,6 +282,9 @@ public class RDF {
 		}
 	}
 	
+	/**
+	 * Method for \n in file
+	 */
 	public void newLine(){
 		try {
 			openWritting();
@@ -219,6 +296,9 @@ public class RDF {
 		}
 	}
 	
+	/**
+	 * Method for closing file stream
+	 */
 	public void closeWriting(){
 		if(out != null) {
 	        try {
